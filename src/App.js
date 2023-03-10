@@ -12,12 +12,9 @@ import 'aos/dist/aos.css';
 
 function App() {
     useEffect(() => {
-      document.title = 'Damasukma Trihanandi';
+      document.title = 'Sebastian Thomas';
       AOS.init();
     }, []);
-    <p>
-      Deploy to Azure Web App
-    </p>
   return (
     <div className="px-6 lg:px-20 xl:px-36 bg-dark-500">
       <Navbar />

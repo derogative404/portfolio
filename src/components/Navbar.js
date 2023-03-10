@@ -1,5 +1,5 @@
 import logo from '../assets/logo.svg';
-import resume from "../assets/resume.pdf"
+import resume from "../assets/portfolio_CV.pdf"
 
 export default function Navbar() {
     return (
@@ -9,6 +9,8 @@ export default function Navbar() {
             <ul className="hidden md:flex">
             <li className="p-4"><a href="#home" className="hover:underline">About</a></li>
             <li className="p-4"><a href="#skills" className="hover:underline">Skills</a></li>
+            <li className="p-4"><a href="#experience" className="hover:underline">Work Experience</a></li>
+            <li className="p-4"><a href="#projects" className="hover:underline">Personal Projects</a></li>
             <li className="p-4"><a href="#honors" className="hover:underline">Honor & Awards</a></li>
             <li className="p-4"><a href="#certs" className="hover:underline">Certfications</a></li>
             </ul>
