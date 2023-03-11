@@ -5,21 +5,25 @@ import SkillCard from "./SkillCard.js"
 
 import javascript from "../assets/skills/javascript.svg"
 import bash from "../assets/skills/bash.svg"
-import kvm from "../assets/skills/kvm.svg"
 import linux from "../assets/skills/linux.svg"
 import python from "../assets/skills/python.svg"
-import reactIcon from "../assets/skills/react.svg"
-import tailwind from "../assets/skills/tailwind.svg"
-import mikrotik from "../assets/skills/mikrotik.svg"
-import kubernetes from "../assets/skills/kubernetes.svg"
-import ansible from "../assets/skills/ansible.svg"
 import windows from "../assets/skills/windows.svg"
 import react from "../assets/skills/react.svg"
-import cisco from "../assets/skills/cisco.svg"
 import docker from "../assets/skills/docker.svg"
 import git from "../assets/skills/git.svg"
-import express from "../assets/skills/express.svg"
-import gitlab from "../assets/skills/gitlab.svg"
+import html from "../assets/skills/html.svg"
+import node from "../assets/skills/nodejs.svg"
+import azure from "../assets/skills/azure.svg"
+import jupyter from "../assets/skills/jupyter_notebook.svg"
+import R_project from "../assets/skills/R.svg"
+import tableau from "../assets/skills/tableau.svg"
+import power_bi from "../assets/skills/power_bi.svg"
+import sap from "../assets/skills/sap.svg"
+import gcp from "../assets/skills/gcp.svg"
+import ibm from "../assets/skills/ibm.svg"
+import huggingface from "../assets/skills/huggingface.svg"
+import jira from "../assets/skills/jira.svg"
+import bitbucket from "../assets/skills/bitbucket.svg"
 
 import hr from "../assets/curve-hr.svg"
 
@@ -39,23 +43,27 @@ export default function Skills() {
 
             <div className="mt-4">
                 <Slider {...settings}>
-                <SkillCard name="linux" experience="1 years" img={linux} />
-                <SkillCard name="bash" experience="1 years" img={bash} />
-                <SkillCard name="python" experience="1 years" img={python} />
-                <SkillCard name="javascript" experience="1 years" img={javascript} />
-                <SkillCard name="react" experience="1 years" img={reactIcon} />
-                <SkillCard name="tailwind" experience="1 years" img={tailwind} />
-                <SkillCard name="kvm" experience="1 years" img={kvm} />
-                <SkillCard name="mikrotik" experience="1 years" img={mikrotik} />
-                <SkillCard name="kubernetes" experience="1 years" img={kubernetes} />
-                <SkillCard name="ansible" experience="1 years" img={ansible} />
-                <SkillCard name="windows" experience="1 years" img={windows} />
-                <SkillCard name="react" experience="1 years" img={react} />
-                <SkillCard name="cisco" experience="1 years" img={cisco} />
-                <SkillCard name="docker" experience="1 years" img={docker} />
-                <SkillCard name="git" experience="1 years" img={git} />
-                <SkillCard name="express" experience="1 years" img={express} />
-                <SkillCard name="gitlab" experience="1 years" img={gitlab} />
+                <SkillCard name="Linux" experience="1 years" img={linux} />
+                <SkillCard name="Bash" experience="1 years" img={bash} />
+                <SkillCard name="Python" experience="1 years" img={python} />
+                <SkillCard name="Jupyter Notebooks" experience="1 years" img={jupyter} />
+                <SkillCard name="R" experience="1 years" img={R_project} />
+                <SkillCard name="Tableau" experience="1 years" img={tableau} />
+                <SkillCard name="Power BI" experience="1 years" img={power_bi} />
+                <SkillCard name="SAP Analytics Cloud" experience="1 years" img={sap} />
+                <SkillCard name="HTML" experience="1 years" img={html} />
+                <SkillCard name="JavaScript" experience="1 years" img={javascript} />
+                <SkillCard name="NodeJS" experience="1 years" img={node} />
+                <SkillCard name="React" experience="1 years" img={react} />
+                <SkillCard name="Windows" experience="1 years" img={windows} />
+                <SkillCard name="Azure" experience="1 years" img={azure} />
+                <SkillCard name="Google Cloud" experience="1 years" img={gcp} />
+                <SkillCard name="IBM Cloud" experience="1 years" img={ibm} />
+                <SkillCard name="Hugging Face" experience="1 years" img={huggingface} />
+                <SkillCard name="Docker" experience="1 years" img={docker} />
+                <SkillCard name="Git" experience="1 years" img={git} />
+                <SkillCard name="Jira" experience="1 years" img={jira} />
+                <SkillCard name="BitBucket" experience="1 years" img={bitbucket} />
                 </Slider>
             </div>
             <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />
